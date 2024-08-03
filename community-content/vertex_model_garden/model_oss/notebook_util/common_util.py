@@ -85,7 +85,9 @@ def get_job_name_with_datetime(prefix: str) -> str:
   Returns:
     A job name.
   """
-  return prefix + datetime.datetime.now().strftime("_%Y%m%d_%H%M%S")
+  now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+  job_name = f"{prefix}-{now}".replace("_", "-")
+  return job_name
 
 
 def create_job_name(prefix: str) -> str:
@@ -99,7 +101,7 @@ def create_job_name(prefix: str) -> str:
   """
   user = os.environ.get("USER")
   now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-  job_name = f"{prefix}-{user}-{now}"
+  job_name = f"{prefix}-{user}-{now}".replace("_", "-")
   return job_name
 
 
@@ -373,6 +375,7 @@ def get_resource_id(accelerator_type: str, is_for_training: bool) -> str:
       "NVIDIA_L4": "custom_model_training_nvidia_l4_gpus",
       "NVIDIA_TESLA_A100": "custom_model_training_nvidia_a100_gpus",
       "NVIDIA_A100_80GB": "custom_model_training_nvidia_a100_80gb_gpus",
+      "NVIDIA_H100_80GB": "custom_model_training_nvidia_h100_gpus",
       "NVIDIA_TESLA_T4": "custom_model_training_nvidia_t4_gpus",
       "TPU_V5e": "custom_model_training_tpu_v5e",
       "TPU_V3": "custom_model_training_tpu_v3",
@@ -382,6 +385,7 @@ def get_resource_id(accelerator_type: str, is_for_training: bool) -> str:
       "NVIDIA_L4": "custom_model_serving_nvidia_l4_gpus",
       "NVIDIA_TESLA_A100": "custom_model_serving_nvidia_a100_gpus",
       "NVIDIA_A100_80GB": "custom_model_serving_nvidia_a100_80gb_gpus",
+      "NVIDIA_H100_80GB": "custom_model_serving_nvidia_h100_gpus",
       "NVIDIA_TESLA_T4": "custom_model_serving_nvidia_t4_gpus",
       "TPU_V5e": "custom_model_serving_tpu_v5e",
   }

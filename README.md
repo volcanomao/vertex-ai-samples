@@ -52,16 +52,17 @@
 <table>
 
   <tr>
-    <th></th>
+    <th style="text-align: center;">Category</th>
+    <th style="text-align: center;">Product</th>
     <th style="text-align: center;">Description</th>
-    <th style="text-align: center;">Contents</th>
   </tr>
   <tr>
+    <td>Model</td>
     <td>
-      <a href="notebooks/official/automl"><code>automl/</code></a>
+      <a href="notebooks/community/model_garden"><code>Model Garden/</code></a>
     </td>
     <td>
-      Train and make predictions on AutoML models
+      Curated collection of first-party, open-source, and third-party models available on Vertex AI including Gemini, Gemma, Llama 3, Claude 3 and many more.
     </td>
     <td><a href="notebooks/official/automl/">Sample notebooks</a></td>
   </tr>
@@ -84,31 +85,94 @@
     <td><a href="notebooks/official/prediction/">Sample notebooks</a></td>
   </tr>
   <tr>
+    <td>Data</td>
     <td>
       <a href="notebooks/official/feature_store"><code>Feature Store/</code></a>
     </td>
     <td>
       使用 Vertex AI Feature Store 设置和管理在线服务。
     </td>
-    <td><a href="notebooks/official/feature_store/">Sample notebooks</a></td>
   </tr>
   <tr>
+    <td></td>
+    <td>
+      <a href="notebooks/official/datasets"><code>datasets/</code></a>
+    </td>
+    <td>
+      Use BigQuery and Data Labeling service with Vertex AI.
+    </td>
+  </tr>
+  <tr>
+    <td>Model development</td>
+    <td>
+      <a href="notebooks/official/automl"><code>automl/</code></a>
+    </td>
+    <td>
+      Train and make predictions on AutoML models
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <a href="notebooks/official/custom"><code>custom/</code></a>
+    </td>
+    <td>
+      Create, deploy and serve custom  models on Vertex AI
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <a href="notebooks/official/ray_on_vertex_ai"><code>ray_on_vertex_ai/</code></a>
+    </td>
+    <td>
+      Use Colab Enterprise and Vertex AI SDK for Python to connect to the Ray Cluster.
+    </td>
+  </tr>
+  <tr>
+    <td>Deploy and use</td>
+    <td>
+      <a href="notebooks/official/prediction"><code>prediction/</code></a>
+    </td>
+    <td>
+      Build, train and deploy models using prebuilt containers for custom training and prediction.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <a href="notebooks/official/model_registry"><code>model_registry/</code></a>
+    </td>
+    <td>
+      Use Model Registry to create and register a model.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
     <td>
       <a href="notebooks/official/explainable_ai"><code>Explainable AI/</code></a>
     </td>
     <td>
       使用 Vertex Explainable AI 的基于特征和基于示例的解释来解释模型产生特定预测的原因。
     </td>
-    <td><a href="notebooks/official/explainable_ai/">Sample notebooks</a></td>
   </tr>
   <tr>
+    <td></td>
+    <td>
+      <a href="notebooks/official/ml_metadata"><code>ml_metadata/</code></a>
+    </td>
+    <td>
+      Record the metadata and artifacts and query that metadata to help analyze, debug, and audit the performance of your ML system.
+    </td>
+  </tr>
+  <tr>
+    <td>Tools</td>
     <td>
       <a href="notebooks/official/pipelines"><code>Pipelines/</code></a>
     </td>
     <td>
       使用 `Vertex AI Pipelines` 和 `Google Cloud Pipeline Components` 构建、调优或部署自定义模型。
     </td>
-    <td><a href="notebooks/official/pipeline/">Sample notebooks</a></td>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
