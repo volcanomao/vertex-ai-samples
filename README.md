@@ -1,50 +1,49 @@
-# ![Google Cloud](https://avatars.githubusercontent.com/u/2810941?s=60&v=4) Google Cloud Vertex AI Samples
+# ![Google Cloud](https://avatars.githubusercontent.com/u/2810941?s=60&v=4) Google Cloud Vertex AI 样本
 
-This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop and manage machine learning and generative AI workflows using Google Cloud Vertex AI.
+这个存储库包含笔记本、代码样本、示例应用程序和其他资源，展示了如何使用 Google Cloud Vertex AI 进行机器学习和生成性 AI 工作流程的使用、开发和管理。
 
-## Overview
+## 概述
 
-[Vertex AI](https://cloud.google.com/vertex-ai) is a fully-managed, unified AI development platform for building and using generative AI. This repository is designed to help you get started with Vertex AI. Whether you're new to Vertex AI or an experienced ML practitioner, you'll find valuable resources here.
+[Vertex AI](https://cloud.google.com/vertex-ai) 是一个全托管的、统一的 AI 开发平台，用于构建和使用生成性 AI。这个存储库旨在帮助你入门 Vertex AI。无论你是 Vertex AI 的新手还是经验丰富的 ML 从业者，你都能在这里找到有价值的资源。
 
-For more Vertex AI Generative AI notebook samples, please visit the Vertex AI [Generative AI](https://github.com/GoogleCloudPlatform/generative-ai) GitHub repository.
+有关更多 Vertex AI 生成性 AI 笔记本样本，请访问 Vertex AI [生成性 AI](https://github.com/GoogleCloudPlatform/generative-ai) GitHub 存储库。
 
-## Explore, learn and contribute
+## 探索、学习和贡献
 
-You can explore, learn, and contribute to this repository to unleash the full potential of machine learning on Vertex AI! 
+你可以探索、学习并为此存储库做出贡献，以释放机器学习在 Vertex AI 上的全部潜力！
 
-### Explore and learn
+### 探索和学习
 
-Explore this repository, follow the links in the header section of each of the notebooks to -
+探索这个存储库，按照每个笔记本标题部分的链接 -
 
-![Colab](https://cloud.google.com/ml-engine/images/colab-logo-32px.png)  Open and run the notebook in [Colab](https://colab.google/)\
-![Colab Enterprise](https://cloud.google.com/ml-engine/images/colab-enterprise-logo-32px.png)  Open and run the notebook in [Colab Enterprise](https://cloud.google.com/colab/docs/introduction)\
-![Workbench](https://lh3.googleusercontent.com/UiNooY4LUgW_oTvpsNhPpQzsstV5W8F7rYgxgGBD85cWJoLmrOzhVs_ksK_vgx40SHs7jCqkTkCk=e14-rj-sc0xffffff-h130-w32)  Open and run the notebook in [Vertex AI Workbench](https://cloud.google.com/vertex-ai/docs/workbench/introduction)\
-![Github](https://cloud.google.com/ml-engine/images/github-logo-32px.png)  View the notebook on Github
+![Colab](https://cloud.google.com/ml-engine/images/colab-logo-32px.png)  在 [Colab](https://colab.google/) 中打开并运行笔记本\
+![Colab Enterprise](https://cloud.google.com/ml-engine/images/colab-enterprise-logo-32px.png)  在 [Colab Enterprise](https://cloud.google.com/colab/docs/introduction) 中打开并运行笔记本\
+![Workbench](https://lh3.googleusercontent.com/UiNooY4LUgW_oTvpsNhPpQzsstV5W8F7rYgxgGBD85cWJoLmrOzhVs_ksK_vgx40SHs7jCqkTkCk=e14-rj-sc0xffffff-h130-w32)  在 [Vertex AI Workbench](https://cloud.google.com/vertex-ai/docs/workbench/introduction) 中打开并运行笔记本\
+![Github](https://cloud.google.com/ml-engine/images/github-logo-32px.png)  在 Github 上查看笔记本
 
-### Contribute
+### 贡献
 
-See the [Contributing Guide](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/master/CONTRIBUTING.md).
+参见 [贡献指南](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/master/CONTRIBUTING.md)。
 
-## Get started
+## 开始使用
 
-To get started using Vertex AI, you must have a Google Cloud project. 
+要开始使用 Vertex AI，你必须有一个 Google Cloud 项目。
 
-- If you don't have a Google Cloud project, you can learn and build on GCP for free using [Free Trail](https://cloud.google.com/free).
-- Once you have a Google Cloud project, you can learn more about [setting up a project and a development environment](https://cloud.google.com/vertex-ai/docs/start/cloud-environment).
+- 如果你没有 Google Cloud 项目，你可以使用 [免费试用](https://cloud.google.com/free) 在 GCP 上学习和构建。
+- 一旦你有了 Google Cloud 项目，你可以了解更多关于 [设置项目和开发环境](https://cloud.google.com/vertex-ai/docs/start/cloud-environment) 的信息。
 
-
-## Repository structure
+## 存储库结构
 
 ```bash
 ├── notebooks
-│   ├── official - Notebooks demonstrating use of each Vertex AI service
+│   ├── official - 展示每个 Vertex AI 服务的笔记本
 │   │   ├── automl
 │   │   ├── custom
 │   │   ├── ...
-│   ├── community - Notebooks contributed by the community
+│   ├── community - 社区贡献的笔记本
 │   │   ├── model_garden
 │   │   ├── ...
-├── community-content - Sample code and tutorials contributed by the community
+├── community-content - 社区贡献的示例代码和教程
 
 ```
 ## Examples
@@ -71,7 +70,7 @@ To get started using Vertex AI, you must have a Google Cloud project.
       <a href="notebooks/official/custom"><code>custom/</code></a>
     </td>
     <td>
-      Create, deploy and serve custom  models on Vertex AI
+      在 Vertex AI 上创建、部署和服务自定义模型
     </td>
     <td><a href="notebooks/official/custom/">Sample notebooks</a></td>
   </tr>
@@ -80,7 +79,7 @@ To get started using Vertex AI, you must have a Google Cloud project.
       <a href="notebooks/official/prediction"><code>prediction/</code></a>
     </td>
     <td>
-      Build, train and deploy models using prebuilt containers for custom training and prediction.
+      使用预构建容器进行自定义训练和预测的模型构建、训练和部署。
     </td>
     <td><a href="notebooks/official/prediction/">Sample notebooks</a></td>
   </tr>
@@ -89,7 +88,7 @@ To get started using Vertex AI, you must have a Google Cloud project.
       <a href="notebooks/official/feature_store"><code>Feature Store/</code></a>
     </td>
     <td>
-      Set up and manage online serving using Vertex AI Feature Store.
+      使用 Vertex AI Feature Store 设置和管理在线服务。
     </td>
     <td><a href="notebooks/official/feature_store/">Sample notebooks</a></td>
   </tr>
@@ -98,7 +97,7 @@ To get started using Vertex AI, you must have a Google Cloud project.
       <a href="notebooks/official/explainable_ai"><code>Explainable AI/</code></a>
     </td>
     <td>
-      Use Vertex Explainable AI's feature-based and example-based explanations to explain how or why a model produced a specific prediction.
+      使用 Vertex Explainable AI 的基于特征和基于示例的解释来解释模型产生特定预测的原因。
     </td>
     <td><a href="notebooks/official/explainable_ai/">Sample notebooks</a></td>
   </tr>
@@ -107,7 +106,7 @@ To get started using Vertex AI, you must have a Google Cloud project.
       <a href="notebooks/official/pipelines"><code>Pipelines/</code></a>
     </td>
     <td>
-      Use `Vertex AI Pipelines` and `Google Cloud Pipeline Components` to build, tune, or deploy a custom model.
+      使用 `Vertex AI Pipelines` 和 `Google Cloud Pipeline Components` 构建、调优或部署自定义模型。
     </td>
     <td><a href="notebooks/official/pipeline/">Sample notebooks</a></td>
   </tr>
@@ -121,7 +120,7 @@ Please use the [Issues page](https://github.com/GoogleCloudPlatform/vertex-ai-sa
 
 ## Disclaimer
 
-This is not an officially supported Google product. The code in this repository is for demonstrative purposes only.
+这不是一个官方支持的 Google 产品。此存储库中的代码仅用于演示目的。
 
 
 ## References
